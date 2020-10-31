@@ -24,7 +24,7 @@ user=$1
 IFS=$'\n' read -d '' -r -a list < $user
 
 # Defining some variables
-url="https://haveibeenpwned.com/api/v2/breachedaccount/"
+url="https://haveibeenpwned.com/api/v3/breachedaccount/"
 parameterTruncate="?truncateResponse=true"
 parameterUnverified="?includeUnverified=true"
 count=1
